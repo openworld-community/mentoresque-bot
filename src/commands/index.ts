@@ -1,9 +1,9 @@
 import { Composer } from "grammy";
 
-import hello from "./hello";
+import debug from "./debug";
 
 const composer = new Composer();
 
-composer.command("hello", hello);
+composer.command("debug", debug);
 
 export default composer;
